@@ -22,7 +22,7 @@ export const ToDoAdd = ({onNewTodo}) => {
     <form onSubmit={onFormSubmit}>
     <input 
         type='text'
-        placeholder="What's up to do?"
+        placeholder="What to do?"
         className="form-control"
         value={description}
         name="description"

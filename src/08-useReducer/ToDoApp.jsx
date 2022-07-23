@@ -23,7 +23,7 @@ export const ToDoApp = () => {
 
         <div className='col-5'>
 
-            <h4 className='text-center'>Add toDo to your list</h4>
+            <h4 className='text-center'>Add things to your list</h4>
             <hr/>
            <ToDoAdd onNewTodo={handleNewToDo} />
         </div>
